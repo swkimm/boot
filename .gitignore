@@ -1,8 +1,26 @@
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Ignore DBeaver project files
+.metadata/
+workspace6/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+target/
+bin/
+*.class
+
+# Ignore DBeaver snapshot files
+*.snap
+.snap
 
 ### STS ###
 .apt_generated
@@ -32,9 +50,6 @@ build/
 ### VS Code ###
 .vscode/
 src/main/resources/custom.properties
-src/main/webapp/WEB-INF/sql/.metadata/.lock
-src/main/webapp/WEB-INF/sql/.metadata/.log
-src/main/webapp/WEB-INF/sql/.metadata/.config/drivers.xml
-src/main/webapp/WEB-INF/sql/.metadata/dbeaver-debug-1681366100633.log
-src/main/webapp/WEB-INF/sql/.metadata/dbeaver-instance.properties
-src/main/webapp/WEB-INF/sql/.metadata/dbeaver-debug.log
+*.xml
+src/main/webapp/WEB-INF/sql/.metadata/.plugins/org.jkiss.dbeaver.ui/dialog_settings.xml
+
