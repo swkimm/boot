@@ -13,8 +13,8 @@
 		<column name="Comment" visible="true" order="9" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/MySQLTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="163"/>
-		<column name="#" visible="true" order="1" width="69"/>
+		<column name="컬럼명" visible="true" order="0" width="125"/>
+		<column name="#" visible="true" order="1" width="89"/>
 		<column name="Data Type" visible="true" order="2" width="142"/>
 		<column name="Not Null" visible="false" order="3" width="100"/>
 		<column name="Auto Increment" visible="false" order="4" width="100"/>
@@ -22,12 +22,12 @@
 		<column name="디폴트" visible="false" order="6" width="100"/>
 		<column name="Extra" visible="false" order="7" width="100"/>
 		<column name="Expression" visible="false" order="8" width="100"/>
-		<column name="Comment" visible="true" order="3" width="119"/>
+		<column name="Comment" visible="true" order="3" width="139"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="163"/>
-		<column name="Time" visible="true" order="1" width="201"/>
-		<column name="Info" visible="true" order="2" width="59"/>
-		<column name="Folder" visible="true" order="3" width="73"/>
+		<column name="Script" visible="true" order="0" width="179"/>
+		<column name="Time" visible="true" order="1" width="197"/>
+		<column name="Info" visible="true" order="2" width="53"/>
+		<column name="Folder" visible="true" order="3" width="67"/>
 	</item>
 </items>
