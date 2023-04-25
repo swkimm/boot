@@ -136,13 +136,14 @@ CREATE Table MyTable10 (
 INSERT INTO MyTable10 (BookName, Publish, Writer, Price, PubDate)
 VALUES ('이것이 자바다', '자바왕국', '김자바', 48900, '2022-11-24');
 
-INSERT INTO MyTable10 (*)
+INSERT INTO MyTable10
 VALUES ('자바의 정석', '남궁', '남궁성', 39900, '2020-11-24');
 
 SELECT * FROM MyTable10;
 
 UPDATE MyTable10 
-SET price = 50000;
+SET price = 80000
+WHERE BookName = '이것이 자바다';
 
 
 
