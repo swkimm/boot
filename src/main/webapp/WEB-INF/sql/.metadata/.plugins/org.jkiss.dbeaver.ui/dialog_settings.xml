@@ -44,7 +44,7 @@
 		<item key="showDetails" value="false"/>
 		<item key="DIALOG_X_ORIGIN" value="352"/>
 		<item key="DIALOG_Y_ORIGIN" value="185"/>
-		<item key="DIALOG_WIDTH" value="376"/>
+		<item key="DIALOG_WIDTH" value="463"/>
 		<item key="DIALOG_HEIGHT" value="228"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
@@ -60,6 +60,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="40"/>
 		<item key="DIALOG_WIDTH" value="296"/>
 		<item key="DIALOG_HEIGHT" value="691"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="DBeaver.EditConnectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="370"/>
+		<item key="DIALOG_Y_ORIGIN" value="77"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="602"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>
