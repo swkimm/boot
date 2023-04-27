@@ -53,3 +53,5 @@ src/main/resources/custom.properties
 *.xml
 src/main/webapp/WEB-INF/sql/.metadata/.plugins/org.jkiss.dbeaver.ui/dialog_settings.xml
 
+.DS_Store
+.DS_Store

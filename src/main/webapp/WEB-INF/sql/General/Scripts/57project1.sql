@@ -14,6 +14,23 @@ CREATE TABLE Board (
 
 DESC Board;
 
-use w3schools;
+INSERT INTO Board (title, body, writer)
+VALUES ('샘플 제목', '샘플 본문', 'user00');
 
-SELECT * FROM Categories;
+SELECT * FROM Board order by id desc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
