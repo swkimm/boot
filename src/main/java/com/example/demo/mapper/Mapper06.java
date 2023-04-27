@@ -20,4 +20,10 @@ public interface Mapper06 {
 			LIMIT #{startIndex} , 20 
 			""")
 	List<Customer> listCustomer(Integer startIndex);
+	
+	@Select("""
+			SELECT COUNT(*) FROM Customers		
+			""")
+	Integer countAll();
+
 }
